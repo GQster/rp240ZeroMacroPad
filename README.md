@@ -1,5 +1,6 @@
 # 3 Key RP2040 Macro Board
-This is a simple project to make a three key macro pad that has Select-All, copy, and paste.
+#### This is a simple project to make a three key macro pad that has Select-All, copy, and paste.
+![Alt Text](imgs/finished.jpg)
 
 
 ### BOM:
@@ -36,6 +37,7 @@ This is a simple project to make a three key macro pad that has Select-All, copy
     board.GP3,
     board.GP6
 )`
+![Alt Text](imgs/internals.jpg)
 
 
 
