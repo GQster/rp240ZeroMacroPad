@@ -14,8 +14,6 @@ from adafruit_hid.keycode import Keycode
 
 
 
-
-
 ##### From adafruit_ticks.py because i cant get it to import #####
 # SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
 # SPDX-FileCopyrightText: Copyright (c) 2021 Jeff Epler for Adafruit Industries
@@ -415,6 +413,15 @@ class Button(Debouncer):
 
 
 
+
+
+
+
+
+
+
+### The actual Code and not just imports ###
+
 kpd = Keyboard(usb_hid.devices)
 
 # Choose the correct modifier key for Windows or Mac.
@@ -427,7 +434,7 @@ NUM_KEYS = 3
 PINS = (
     board.GP2,
     board.GP3,
-    board.GP6,
+    board.GP6
 )
 
 KEYMAP = (

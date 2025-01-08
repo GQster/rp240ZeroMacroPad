@@ -7,10 +7,11 @@ This is a simple project to make a three key macro pad that has Select-All, copy
   - 3 Mechanical keyboard switches
   - 3 key caps
   - some wire
+  - 3D printed housing
 
 ### TOOLS:
+  - Solder
   - Soldering iron
-  - solder
 
 ### Software needed:
   - [Circuit Python](https://circuitpython.org/board/waveshare_rp2040_zero/   ) ([how to install](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython))
@@ -19,9 +20,9 @@ This is a simple project to make a three key macro pad that has Select-All, copy
 
 
 ### Steps:
-- In the adafruit-circuitpython*****.zip, go to the lib, copy the `adafruit_hid ` to the rp2040's lib folder.
-You can only do this after installing circuit pyhton to the rp2040.
-- Copy the `code.py` file to the root of the rp2040
+- Install circuitpython to the RP2040
+- In the adafruit-circuitpython*****.zip [I got from here](https://circuitpython.org/libraries), go to the lib, copy the `lib/adafruit_hid` folder to the rp2040's lib folder.
+- Copy this `code.py` [file](https://github.com/GQster/rp240ZeroMacroPad/blob/master/code.py) to the root of the rp2040
 
 
 
@@ -52,3 +53,8 @@ To change what the keys do you will want to edit :
 
 ## NOTE:
 I was haveing issues importing the libraries correctly and didn't want to spend the time to fix it. So I just coppied the `adafruit_ticks` and `adafruit_debounce` files into `code.py`. This work fine, but is messy. 
+
+
+
+### References:
+I took inspairation (and the stl files) from [this instructable](https://www.instructables.com/Macropad-for-Keyboard-Shortcuts/) but swapped to a RP2040 as it is smaller and I had a few already.
