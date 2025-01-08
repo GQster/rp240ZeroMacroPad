@@ -13,7 +13,7 @@ This is a simple project to make a three key macro pad that has Select-All, copy
   - solder
 
 ### Software needed:
-  - Circuit Python https://circuitpython.org/board/waveshare_rp2040_zero/   ([how to install](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython))
+  - [Circuit Python](https://circuitpython.org/board/waveshare_rp2040_zero/   ) ([how to install](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython))
   - Serial terminal for testing ([online version I used](https://www.serialterminal.com/advanced_terminal/src/html/index.html))
 
 
