@@ -23,13 +23,14 @@
 
 ### Steps:
 - Install circuitpython to the RP2040
-- In the adafruit-circuitpython*****.zip [I got from here](https://circuitpython.org/libraries), go to the lib, copy the `lib/adafruit_hid` folder to the rp2040's lib folder.
-- Copy this `code.py` [file](https://github.com/GQster/rp240ZeroMacroPad/blob/master/code.py) to the root of the rp2040
+- Copy the `adafruit_debouncer.py` & `adafruit_ticks.py` to the root folder. ( I got ticks from [here](https://github.com/adafruit/Adafruit_CircuitPython_Ticks/blob/main/adafruit_ticks.py) and debouncer from [here](https://github.com/adafruit/Adafruit_CircuitPython_Debouncer/blob/main/adafruit_debouncer.py) ) (Did this as I couldnt get the lib for these to work)
+- In the adafruit-circuitpython*****.zip [I got from here](https://circuitpython.org/libraries), copy the `lib/adafruit_hid` folder to the rp2040's lib folder.
+- Copy the `code.py` [file](https://github.com/GQster/rp240ZeroMacroPad/blob/master/code.py) to the root of the rp2040
 
 
 
 **Wire it up:**
-- Solder one side of each key to a GND pin (i used pin 2)
+- Solder one side of each key to a GND pin (I used pin 2)
 - Solder the other pin of each key to a GPIO pin. I used 2, 3, and 6 (avoiding the UART pins). Make sure you update the code with your pins:
 
 
