@@ -2,6 +2,7 @@
 #### This is a simple project to make a three key macro pad that has Select-All, copy, and paste.
 ![Alt Text](imgs/finished.jpg)
 
+[RP2040 Info](https://www.waveshare.com/wiki/RP2040-Zero)
 
 ### BOM:
   - 1 rp2040-zero
