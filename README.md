@@ -1,6 +1,8 @@
 # 3 Key RP2040 Macro Board
 #### This is a simple project to make a three key macro pad that has Select-All, copy, and paste.
-![Alt Text](imgs/finished.jpg)
+
+<img src="imgs/finished.jpg" alt="drawing" width="200"/>
+
 
 [RP2040 Info](https://www.waveshare.com/wiki/RP2040-Zero)
 
@@ -39,7 +41,8 @@
     board.GP3,
     board.GP6
 )`
-![Alt Text](imgs/internals.jpg)
+
+<img src="imgs/internals.jpg" alt="drawing" width="200"/>
 
 
 
