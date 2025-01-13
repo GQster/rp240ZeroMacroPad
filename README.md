@@ -56,7 +56,7 @@ To change what the keys do you will want to edit :
 
 
 ## NOTE:
-I was haveing issues importing the libraries correctly and didn't want to spend the time to fix it. So I just coppied the `adafruit_ticks` and `adafruit_debounce` files into `code.py`. This work fine, but is messy. 
+I was haveing issues importing the libraries correctly and didn't want to spend the time to fix it. So I just coppied the `adafruit_ticks` and `adafruit_debounce` files into the root folder. This work fine, but is messy. 
 
 
 
